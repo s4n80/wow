@@ -1,6 +1,5 @@
 #!/bin/bash
-# Coded by: github.com/thehacker
-# Telegram: @thehacker
+
 
 trap 'store;exit 1' 2
 string4=$(openssl rand -hex 32 | cut -c 1-4)
